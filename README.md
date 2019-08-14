@@ -1,2 +1,2 @@
-# Theme
-A EnigmaCMS package for Theme functionality, useful for simple&easy creation and usage of custom Themes.
+# Status
+A EnigmaCMS package for automating Server Status checks and displaying Server Health reports.

@@ -11,9 +11,9 @@ if (! function_exists('theme'))
      * @param  string  $page
      * @return string
      */
-    function theme($page = null)
+    function theme($page = null, $stringOnly = false)
     {
-        return Theme::make($page);
+        return app('theme')->make($page, $stringOnly);
         # return app(Theme::class)->make($page);
     }
 }

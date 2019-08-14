@@ -1,8 +1,8 @@
 <?php
 
-namespace Enigma\Status\Commands;
+namespace Enigma\Theme\Commands;
 
-use Enigma\Status\Controllers\StatusController;
+//use Enigma\Status\Controllers\StatusController;
 use Illuminate\Console\Command;
 
 class Generate extends Command
