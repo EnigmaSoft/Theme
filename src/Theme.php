@@ -46,10 +46,10 @@ class Theme
         return $theme;
     }
 
-    public static function __callStatic($method, $parameters)
+    /*public static function __callStatic($method, $parameters)
     {
         return $this->forwardCallTo($this->getView(), $method, $parameters);
-    }
+    }*/
 
     public function __call($method, $parameters)
     {
